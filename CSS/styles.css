@@ -1,0 +1,290 @@
+﻿/* dropdown menu*/
+
+@media only screen and (max-width: 600px) {
+	nav {
+		font-weight: bold;
+		color: black;
+		border: 2px solid royalblue;
+		text-align: center;
+		width: 10em;
+		background-color: #DDDDDD;
+	}
+	nav ul {
+		display: none;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	nav:hover ul {
+		display: block
+	}
+	nav ul li {
+		border-top: 2px solid royalblue;
+		backbround-color: white;
+		list-style: none;
+		width: 10em;
+		color: black;
+	}
+	nav ul li:hover {
+		background-color: powderblue;
+		list-style: none;
+	}
+	a {
+		text-decoration: none;
+	}
+}
+
+
+/* horizontal navbar */
+
+@media only screen and (min-width: 600px) {
+	#dropdown-menu {
+		display: none;
+	}
+	nav {
+		padding: 0;
+		margin: 0;
+		font: bold 1em;
+		background: #DDDDDD;
+		width: 100%;
+		border-bottom: 2px solid #666666;
+		height: 22px;
+	}
+	nav ul {
+		text-align: center;
+		margin: 0;
+		padding-top: 3px;
+		padding-bottom: 3px;
+	}
+	nav li {
+		display: inline;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	nav a {
+		text-decoration: none;
+		margin: 0;
+		padding: 2px 10px;
+		border-top: 1px solid #fff;
+		border-right: 1px solid #aaa;
+		border-left: 1px solid #fff;
+	}
+	nav a:link {
+		color: #80386A;
+	}
+	nav a:visited {
+		color: #B54F99;
+	}
+	nav a:hover {
+		color: #FFF;
+		background: #666;
+	}
+}
+
+#banner {
+	border-bottom: 5px solid royalblue;
+	height: 95px;
+}
+
+#footer {
+	clear: both;
+	text-align: right;
+	background-color: #DDDDDD;
+	border-top: 2px solid #000;
+	padding: 10px;
+}
+
+#footer p {
+	font-size: 65%;
+	color: black;
+	margin: 0;
+}
+
+.right {
+	float: right;
+}
+
+h1 {
+	text-shadow: -4px 4px 6px dimgrey;
+}
+
+#box-div {
+	box-shadow: -25px -25px 50px dimgrey;
+	margin: auto;
+}
+
+fieldset {
+	width: 60%;
+	border: 2px solid dimgrey;
+	background: #DDDDDD;
+	padding: 1em;
+	margin: 0.5em 0;
+}
+
+legend {
+	color: white;
+	letter-spacing: 0.2em;
+	font-weight: bold;
+	background: royalblue;
+	padding: 0.25em 0.5em;
+}
+
+li {
+	list-style-image: url(red_sq.png);
+}
+
+li:hover {
+	list-style-image: url(blue_sq.png);
+}
+
+table {
+	width: 75%;
+	border: 2px solid royalblue;
+	background-color: #DDDDDD;
+}
+
+td {
+	width: 50%;
+	padding: 5px;
+	border: 1px solid royalblue;
+	background-color: #FFF;
+}
+
+th {
+	padding: 5px;
+	border: 1px solid royalblue;
+}
+
+.box-div {
+	box-shadow: -25px -25px 50px dimgrey;
+	background-color: #DDDDDD;
+	width: 95%;
+	padding: 1em;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
+	color: royalblue;
+	border-radius: 15px;
+}
+
+.pic {
+	border-style: double;
+	border-color: royalblue;
+	border-width: 10px;
+}
+
+a:link {
+	color: blue;
+}
+
+a:active {
+	color: teal;
+}
+
+a:visited {
+	color: purple;
+}
+
+.sml-col {
+	width: 100px;
+}
+
+.primary_button {
+	background-color: royalblue;
+    border-color: royalblue;
+    padding: 10px;
+	color: white;
+    font-weight: bolder;
+}
+
+.secondary_button {
+	
+    padding: 10px;
+    font-weight: bolder;
+}
+
+#enlarge_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#events { 
+	border-collapse:collapse;
+	width:340px;
+	margin: 0;
+	color: #00a0af;
+}
+
+#events tbody { margin: 0; }
+
+#events th {
+	background-color: #ffffff;
+	padding: 6px 0.25em;
+	font-weight: bold;
+	font-size: 90% ;
+	color: #000000;
+	text-transform: uppercase;
+	margin: 0;
+	border-bottom: solid 1px #c2e8ee;
+	cursor: pointer;
+}
+
+#events td, #events th { 
+	margin: 0; 
+	padding: .75em 0.375em .75em 0.375em;
+	text-align: left;
+}
+
+
+#content1, #sidebar {
+	float: left;
+	text-align: left;
+}
+
+#content1 {	
+	width: 340px;	
+	margin: 0px;
+}
+#sidebar {
+	width:400px;
+	margin-top: 0;
+	margin-left: 20px;
+}
+
+#sidebar_brace {
+	float: left;
+	width:360px;
+	height:340px;
+	margin: 20px 10px 20px 20px;
+	display: inline;
+}
+
+
+.rowHover {
+	color: red;
+	cursor: pointer;
+	background-color:orange;
+}
+
+form.cmxform label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: red;
+	font-style: italic
+}
+
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #DDDDDD;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
