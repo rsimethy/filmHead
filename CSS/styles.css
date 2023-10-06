@@ -86,5 +86,6 @@ body{
 }
 h1 {
 	text-shadow: -3px 3px 3px black;
+	text-align: center;
 	color: #E7C6FF;
 }
