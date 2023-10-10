@@ -118,6 +118,19 @@ h1 {
 	margin: 0;
 }
 
+.name:hover {
+	background-color: #B8C0FF;
+	color: #FFF;
+}
+
+.name:link {
+	color: #FFD6FF;
+}
+
+.name:visited {
+	color: #FFD6FF;
+}
+
 /* footer content*/
 
 #holder {
