@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name= "viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="fhlfavicon.png" rel="shortcut icon" type="image/png" />
+	<link href="CSS/styles.css" rel="stylesheet" type="text/css">
+	<title>FilmHead LLC</title>
+</head>
+
+<body>
+	<div id="page-container">
+
+		<!--Header-->
+		<div class="header">
+			<!---Top Nav Bar (Main Nav Bar) -->
+			<nav class = "topNav">
+				<div class="nav-container">
+				<!--Top Nav Bar Brand Logo -->
+					<div class="navLogo">
+						<a href="index.html"><img src="images/logo_pink_noback.png" alt="Film Head LLC logo"></a>
+					</div>
+				<!--Top Nav Bar links to pages on website -->
+					<ul class="topNav-nav-right">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="about.html">About Us</a></li>
+				</ul>
+			</div>
+			</nav>
+		</div>
+
+		<!--Content-->
+        <div class="main" style="padding-top: 10px; padding-bottom: 0px;">
+            <div class="gallery-title"> Gallery </div>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                <div class="numbertext">1 / 12</div>
+                <img src="images/250D/img1.jpg" style="width:100%">
+                <div class="text_caption">250D Film : Shoes</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">2 / 12</div>
+                <img src="images/250D/img2.jpg" style="width:100%">
+                <div class="text_caption">250D Film : Street</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">3 / 12</div>
+                <img src="images/250D/img3.jpg" style="width:100%">
+                <div class="text_caption">250D Film : Bicycle</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">4 / 12</div>
+                <img src="images/250D/img4.jpg" style="width:100%">
+                <div class="text_caption">250D Film : Tree in bloom</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">5 / 12</div>
+                <img src="images/250D/img5.jpg" style="width:100%">
+                <div class="text_caption">250D Film : Wires</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">6 / 12</div>
+                <img src="images/250D/img6.jpg" style="width:100%">
+                <div class="text_caption">250D Film : Field</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">7 / 12</div>
+                <img src="images/250D/img7.jpg" style="width:100%">
+                <div class="text_caption">250D Film : Room</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">8 / 12</div>
+                <img src="images/500D/img1.png" style="width:100%">
+                <div class="text_caption">500T Film : Shop</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">9 / 12</div>
+                <img src="images/500D/img2.jpg" style="width:100%">
+                <div class="text_caption">500T Film : Lake</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">10 / 12</div>
+                <img src="images/500D/img3.jpg" style="width:100%">
+                <div class="text_caption">500T Film : Pier</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">11 / 12</div>
+                <img src="images/500D/img4.png" style="width:100%">
+                <div class="text_caption">500T Film : Cat</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">12 / 12</div>
+                <img src="images/500D/img5.png" style="width:100%">
+                <div class="text_caption">500T Film : Flowers</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+                <span class="dot" onclick="currentSlide(5)"></span> 
+                <span class="dot" onclick="currentSlide(6)"></span> 
+                <span class="dot" onclick="currentSlide(7)"></span> 
+                <span class="dot" onclick="currentSlide(8)"></span> 
+                <span class="dot" onclick="currentSlide(9)"></span> 
+                <span class="dot" onclick="currentSlide(10)"></span> 
+                <span class="dot" onclick="currentSlide(11)"></span> 
+                <span class="dot" onclick="currentSlide(12)"></span> 
+            </div>
+        </div>
+
+		<!--Footer-->
+		<div class="footer">
+			<div class="flex-contatiner">
+				<div class="footer-logo">
+					<img src="images/logo_pink_noback.png" alt="FilmHeadLLC Logo" width="195" height="58.2">
+				</div>
+				<div class="footer-contact">
+					<div class="contact-header">Contact Us</div>
+					<div class="contact-info">
+						<a class="insta-logo" href="https://www.instagram.com/filmheadshop/">
+							<img src="images\insta-logo.png" alt="Instagram Logo" width="30" height="30">
+							Instagram.com/FilmHeadShop
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+</body>
+</html>

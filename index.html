@@ -2,61 +2,59 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name= "viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="fhlfavicon.png" rel="shortcut icon" type="image/png" />
+	<link href="CSS/styles.css" rel="stylesheet" type="text/css">
 	<title>FilmHead LLC</title>
-	<link rel="stylesheet" href="CSS/styles.css">
-	<!--Site Facicon Goes here --> <link rel="icon" type="image/x-icon" href="images/favicon.png">
 </head>
-</head>
-<body> 
-	<div id="page-wrapper">
-		<!--Navigation Bar-->
-		<nav>
-			<div id="dropdown-menu">Menu</div>
-			<a class="name" href="index.html">FilmHead</a>
-			<ul>
-				<li><a class="active" href="index.html">Home</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="store.html">Store</a></li>
-				<li><a href="image.html">Images</a></li>
-				<li><a href="faq.html">F.A.Q.</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-			</ul>
-		</nav>
 
-		
-		<div id="content-wrapper">
-			<div id="my-store-90129548"></div>
-			<div>
-				<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?90129548&data_platform=code&data_date=2023-10-05" charset="utf-8"></script>
-				<script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-90129548");</script>
+<body>
+	<div id="page-container">
+
+		<!--Header-->
+		<div class="header">
+			<!---Top Nav Bar (Main Nav Bar) -->
+			<nav class = "topNav">
+				<div class="nav-container">
+				<!--Top Nav Bar Brand Logo -->
+					<div class="navLogo">
+						<a href="index.html"><img src="images/logo_pink_noback.png" alt="Film Head LLC logo"></a>
+					</div>
+				<!--Top Nav Bar links to pages on website -->
+					<ul class="topNav-nav-right">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="about.html">About Us</a></li>
+				</ul>
+			</div>
+			</nav>
+		</div>
+
+		<!--Content-->
+		<div class="main-content">
+			<div class="main">
+				<div id="my-store-90129548"></div>
+				<div class="store">
+					<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?90129548&data_platform=code&data_date=2023-10-05" charset="utf-8"></script>
+					<script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-90129548");</script>
+				</div>
 			</div>
 		</div>
 
-		</div>	
-		</div>
-
-
 		<!--Footer-->
-		<div id="footer-content">
-			<div class="flex-container">
-				<div>
-					<div class="content">
-						<img src="images/favicon.png" alt="FilmHeadLLC Logo" width="175" height="95">
-						<p class="copywrite">© Your company name 2023</p>
-						<p>This site is intended for a U.S. audience. Cookies and related technology are used for advertising.
-							Please visit our AdChoices and our privacy policy.</p>
-					</div>
-					<div class="content">
-						<h2>Site Map</h2>
-						<p>Home</p>
-						<p>About us</p>
-						<p>Store</p>
-						<p>Images</p>
-						<p>F.A.Q.</p>
-					</div>
-					<div class="content">
-						<h2>Contact Info</h2>
-						<p>Input contact info below...</p>
+		<div class="footer">
+			<div class="flex-contatiner">
+				<div class="footer-logo">
+					<img src="images/logo_pink_noback.png" alt="FilmHeadLLC Logo" width="195" height="58.2">
+				</div>
+				<div class="footer-contact">
+					<div class="contact-header">Contact Us</div>
+					<div class="contact-info">
+						<a class="insta-logo" href="https://www.instagram.com/filmheadshop/">
+							<img src="images\insta-logo.png" alt="Instagram Logo" width="30" height="30">
+							Instagram.com/FilmHeadShop
+						</a>
 					</div>
 				</div>
 			</div>
