@@ -276,3 +276,13 @@ img {vertical-align: middle;}
     color: #ebcbf4;
     text-decoration: none;
 }
+
+.FAQ-Header{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.FAQ-content {
+  padding-left: 30px;
+}
